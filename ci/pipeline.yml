@@ -37,6 +37,7 @@ jobs:
     params:
       manifest: attendee-service-source/manifest.yml
       path: package-output/attendee-service-source.jar
+      current_app_name: attendee-service-source
 
 - name: smoke_test
   public: true

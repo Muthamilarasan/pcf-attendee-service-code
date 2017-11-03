@@ -48,5 +48,5 @@ jobs:
   - task: smoke_test
     file: attendee-service-source/ci/tasks/smoke-test.yml
     params:
-      ATTENDEE_SERVICE_URL: http://attendee-service-source-religiose-benediction.apps.cumuluslabs.io/  #<---- REPLACE ME
+      ATTENDEE_SERVICE_URL: http://attendee-service-source-muthamil.apps.cumuluslabs.io/  #<---- REPLACE ME
 
